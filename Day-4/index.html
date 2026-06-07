@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Page</title>
+</head>
+<body>
+
+    <header>
+        <h1 align="center">Student Registration System</h1>
+        <hr>
+    </header>
+
+    <main>
+
+        <!-- Form Section -->
+        <section>
+            <h2>Student Registration Form</h2>
+
+            <form>
+                <label>Full Name:</label><br>
+                <input type="text" name="fullname" required><br><br>
+
+                <label>Email Address:</label><br>
+                <input type="email" name="email" required><br><br>
+
+                <label>Password:</label><br>
+                <input type="password" name="password" required><br><br>
+
+                <label>Phone Number:</label><br>
+                <input type="tel" name="phone"><br><br>
+
+                <label>Date of Birth:</label><br>
+                <input type="date" name="dob"><br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> Other
+                <br><br>
+
+                <label>Skills:</label><br>
+                <input type="checkbox"> HTML
+                <input type="checkbox"> CSS
+                <input type="checkbox"> JavaScript
+                <input type="checkbox"> Python
+                <br><br>
+
+                <label>City:</label><br>
+                <select>
+                    <option>Rajkot</option>
+                    <option>Bhavnagar</option>
+                    <option>Ahmedabad</option>
+                    <option>Surat</option>
+                    <option>Vadodara</option>
+                </select>
+                <br><br>
+
+                <label>Message:</label><br>
+                <textarea rows="5" cols="40"></textarea>
+                <br><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Table Section -->
+        <section>
+            <h2>Student Details Table</h2>
+
+            <table border="1" cellpadding="10">
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Email</th>
+                    <th>City</th>
+                </tr>
+
+                <tr>
+                    <td>Rahul Patel</td>
+                    <td>Web Development</td>
+                    <td>rahul@gmail.com</td>
+                    <td>Rajkot</td>
+                </tr>
+
+                <tr>
+                    <td>Priya Shah</td>
+                    <td>Python</td>
+                    <td>priya@gmail.com</td>
+                    <td>Bhavnagar</td>
+                </tr>
+
+                <tr>
+                    <td>Amit Kumar</td>
+                    <td>Java</td>
+                    <td>amit@gmail.com</td>
+                    <td>Ahmedabad</td>
+                </tr>
+
+                <tr>
+                    <td>Neha Joshi</td>
+                    <td>PHP</td>
+                    <td>neha@gmail.com</td>
+                    <td>Surat</td>
+                </tr>
+
+                <tr>
+                    <td>Karan Mehta</td>
+                    <td>Data Science</td>
+                    <td>karan@gmail.com</td>
+                    <td>Vadodara</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Media Section -->
+        <section>
+            <h2>Media Section</h2>
+
+            <h3>Image</h3>
+            <img
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600"
+                alt="Students"
+                width="400">
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <h3>Video</h3>
+            <video width="500" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <hr>
+
+        <!-- Iframe Section -->
+        <section>
+            <h2>Iframe Section</h2>
+
+            <h3>YouTube Video</h3>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/GkZN_-HMCJ8"
+                title="YouTube Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+            <br><br>
+
+            <h3>Google Map - Bhavnagar</h3>
+            <iframe
+                src="https://maps.google.com/maps?q=Bhavnagar&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="560"
+                height="315"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p align="center">
+            © 2026 Student Registration System
+        </p>
+    </footer>
+
+</body>
+</html>
+```
