@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Agency Project</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="text-3xl font-bold text-blue-600">
+                TailwindPro
+            </h1>
+
+            <ul class="hidden md:flex gap-8 font-medium">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="btn bg-blue-600 text-white px-5 py-2 rounded-lg">
+                Login
+            </button>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="container mx-auto px-6 py-20">
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+
+            <div>
+                <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                    Build Modern Websites With Tailwind CSS
+                </h1>
+
+                <p class="text-gray-600 text-lg mb-8">
+                    Learn Tailwind CSS through project-based learning and create responsive modern websites faster than ever.
+                </p>
+
+                <button class="btn bg-blue-600 text-white px-8 py-3 rounded-lg">
+                    Get Started
+                </button>
+            </div>
+
+            <div>
+                <img
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                    alt="Developer"
+                    class="hero-image rounded-xl shadow-xl w-full">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-white py-20">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Features
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="feature-card bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Responsive Design
+                    </h3>
+                    <p class="text-gray-600">
+                        Mobile-first layouts that look amazing on all devices.
+                    </p>
+                </div>
+
+                <div class="feature-card bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Fast Performance
+                    </h3>
+                    <p class="text-gray-600">
+                        Optimized design and lightweight components.
+                    </p>
+                </div>
+
+                <div class="feature-card bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Easy Customization
+                    </h3>
+                    <p class="text-gray-600">
+                        Utility-first classes for rapid development.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Our Services
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="service-card bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Web Design
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Modern UI/UX designs tailored to your business.
+                    </p>
+                </div>
+
+                <div class="service-card bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">
+                        Development
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Scalable and responsive web applications.
+                    </p>
+                </div>
+
+                <div class="service-card bg-white p-8 rounded-xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">
+                        SEO Optimization
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Improve rankings and grow online visibility.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="bg-blue-600 py-20">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center text-white mb-12">
+                Testimonials
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="testimonial-card bg-white p-6 rounded-xl">
+                    <p>
+                        ⭐⭐⭐⭐⭐
+                        <br><br>
+                        Amazing service and great support.
+                    </p>
+                </div>
+
+                <div class="testimonial-card bg-white p-6 rounded-xl">
+                    <p>
+                        ⭐⭐⭐⭐⭐
+                        <br><br>
+                        Beautiful design and smooth experience.
+                    </p>
+                </div>
+
+                <div class="testimonial-card bg-white p-6 rounded-xl">
+                    <p>
+                        ⭐⭐⭐⭐⭐
+                        <br><br>
+                        Excellent Tailwind CSS implementation.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20">
+
+        <div class="container mx-auto px-6">
+
+            <h2 class="text-4xl font-bold text-center mb-12">
+                Contact Us
+            </h2>
+
+            <form class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="w-full border p-3 rounded-lg mb-4">
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    class="w-full border p-3 rounded-lg mb-4">
+
+                <textarea
+                    rows="5"
+                    placeholder="Your Message"
+                    class="w-full border p-3 rounded-lg mb-4"></textarea>
+
+                <button
+                    type="submit"
+                    class="btn bg-blue-600 text-white px-8 py-3 rounded-lg">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6">
+        <p>© 2026 TailwindPro. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
